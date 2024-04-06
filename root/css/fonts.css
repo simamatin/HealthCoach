@@ -1,0 +1,15 @@
+@font-face {
+    font-family: opensanse;
+    src: url("../fonts/opensanse/OpenSans-Regular.ttf");
+    src: url("../fonts/opensanse/OpenSans-Regular.eot");
+    src: url("../fonts/opensanse/OpenSans-Regular.woff");
+    src: url("../fonts/opensanse/OpenSans-Regular.woff2");
+}
+
+@font-face {
+    font-family: caveat;
+    src: url("../fonts/caveat/Caveat-Regular.ttf");
+    src: url("../fonts/caveat/Caveat-Regular.eot");
+    src: url("../fonts/caveat/Caveat-Regular.woff");
+    src: url("../fonts/caveat/Caveat-Regular.woff2");
+}

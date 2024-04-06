@@ -1,0 +1,271 @@
+@import "fonts.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1270px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-family: 'Caveat', cursive;
+}
+
+p,
+a,
+h3 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#header {
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.10)), url("../images/yoga_me-1030x687.jpg") no-repeat center center/ cover;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.white-logo {
+    width: 20rem;
+}
+
+.white-logo__img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+li {
+    padding: 0 1rem;
+}
+
+#header ul li a {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 250ms;
+}
+
+ul li a:hover {
+    opacity: 0.8;
+}
+
+#header ul li:nth-child(5) > a {
+    border: 2px solid #FFFFFF;
+    padding: 10px;
+}
+
+.headline {
+    padding: 320px 0;
+    color: #fff;
+    text-align: center;
+}
+
+.headline > h1 {
+    font-family: 'Caveat', cursive;
+    font-size: 70px;
+    font-weight: lighter;
+    line-height: 77px;
+}
+
+.headline > p {
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 32px;
+}
+
+.box-i {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    width: 140px;
+    border: 3px solid #FFFFFF;
+    padding: 12px;
+    border-radius: 75px;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 10px 10px;
+    transition: 500ms;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.box1 {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.box1:hover {
+    opacity: 0.7;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.box2 {
+    background-color: #719430;
+    border: 3px solid transparent;
+}
+
+.box2:hover {
+    opacity: 0.9;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1280px) {
+    .menu {
+        width: 400px;
+    }
+
+    .hotels .wedding-box p {
+        font-size: .7rem;
+    }
+
+    .hotels .wedding-box {
+        padding: 0 30PX;
+    }
+
+}
+
+@media only screen and (max-width: 990px) {
+    .navigation {
+        display: none;
+    }
+
+    .bars {
+        display: block;
+    }
+
+    #header > nav {
+        background-color: rgba(255, 255, 255, 0.6);
+    }
+
+    .website-logo {
+        /*background: url("../images/logo_wedding.png") no-repeat center center / cover;*/
+        position: relative;
+        top: 1px;
+    }
+
+    .gb-images > figure {
+        width: 50%;
+    }
+
+    .gb-images > figure:nth-child(3) {
+        margin-left: 25%;
+    }
+
+    .hotels > .wedding-box {
+        /*width: 100%;*/
+        padding: 0 15px;
+
+    }
+}
+
+@media only screen and (max-width: 865px) {
+    .hotels > .wedding-box {
+        padding: 0 5px;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+    .we-are-time-box {
+        font-size: 26px;
+    }
+
+    .wedding-box {
+        width: 100%;
+        margin-bottom: 50px;
+        border-bottom: 1px solid silver;
+        padding-bottom: 40px;
+    }
+
+    .hotels > .wedding-box {
+        padding: 0 2px;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .we-are-time-box {
+        font-size: 34px;
+        width: 50%;
+        /*border-color: dodgerblue;*/
+        margin-bottom: 2px;
+    }
+
+    .we-are-time-box:nth-child(2) {
+        border: none;
+    }
+
+    .our-story-description-side {
+        width: 100%;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .gb-images > figure {
+        width: 100%;
+    }
+
+    .gb-images > figure:nth-child(3) {
+        margin-left: 0;
+    }
+
+    .hotels .wedding-box {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .gb-title {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    .we-are-time-box {
+        width: 100%;
+        border: none;
+    }
+
+    .gb-title {
+        font-size: 40px;
+    }
+
+    .heart-line {
+        width: 300px;
+    }
+
+    .gb {
+        width: 100%;
+    }
+
+    .gb-images > figure > figcaption {
+        font-size: 2rem;
+    }
+}
+

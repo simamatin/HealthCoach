@@ -135,137 +135,45 @@ ul li a:hover {
     opacity: 0.9;
 }
 
+
+
+
+
 /* Media Queries */
 
 @media only screen and (max-width: 1280px) {
-    .menu {
-        width: 400px;
-    }
 
-    .hotels .wedding-box p {
-        font-size: .7rem;
-    }
-
-    .hotels .wedding-box {
-        padding: 0 30PX;
-    }
 
 }
 
 @media only screen and (max-width: 990px) {
-    .navigation {
-        display: none;
-    }
 
-    .bars {
-        display: block;
-    }
 
-    #header > nav {
-        background-color: rgba(255, 255, 255, 0.6);
-    }
-
-    .website-logo {
-        /*background: url("../images/logo_wedding.png") no-repeat center center / cover;*/
-        position: relative;
-        top: 1px;
-    }
-
-    .gb-images > figure {
-        width: 50%;
-    }
-
-    .gb-images > figure:nth-child(3) {
-        margin-left: 25%;
-    }
-
-    .hotels > .wedding-box {
-        /*width: 100%;*/
-        padding: 0 15px;
-
-    }
 }
+
 
 @media only screen and (max-width: 865px) {
-    .hotels > .wedding-box {
-        padding: 0 5px;
-    }
+
 }
+
 
 @media only screen and (max-width: 840px) {
-    .we-are-time-box {
-        font-size: 26px;
-    }
 
-    .wedding-box {
-        width: 100%;
-        margin-bottom: 50px;
-        border-bottom: 1px solid silver;
-        padding-bottom: 40px;
-    }
-
-    .hotels > .wedding-box {
-        padding: 0 2px;
-    }
 }
+
 
 @media only screen and (max-width: 780px) {
-    .we-are-time-box {
-        font-size: 34px;
-        width: 50%;
-        /*border-color: dodgerblue;*/
-        margin-bottom: 2px;
-    }
 
-    .we-are-time-box:nth-child(2) {
-        border: none;
-    }
 
-    .our-story-description-side {
-        width: 100%;
-        margin-bottom: 50px;
-        text-align: center;
-    }
-
-    .gb-images > figure {
-        width: 100%;
-    }
-
-    .gb-images > figure:nth-child(3) {
-        margin-left: 0;
-    }
-
-    .hotels .wedding-box {
-        width: 100%;
-    }
 }
 
+
 @media only screen and (max-width: 700px) {
-    .gb-title {
-        font-size: 30px;
-    }
+
 }
 
 @media only screen and (max-width: 660px) {
-    .we-are-time-box {
-        width: 100%;
-        border: none;
-    }
 
-    .gb-title {
-        font-size: 40px;
-    }
-
-    .heart-line {
-        width: 300px;
-    }
-
-    .gb {
-        width: 100%;
-    }
-
-    .gb-images > figure > figcaption {
-        font-size: 2rem;
-    }
+  
 }
 

@@ -30,6 +30,8 @@ a {
     color: #FFFFFF;
 }
 
+/* Start Header Styles */
+
 #header {
     width: 100%;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.10)), url("../images/yoga_me-1030x687.jpg") no-repeat center center/ cover;
@@ -135,7 +137,7 @@ ul li a:hover {
     opacity: 0.9;
 }
 
-
+/* Finish Header Styles */
 
 
 
@@ -146,33 +148,28 @@ ul li a:hover {
 
 }
 
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 992px) {
 
 
 }
 
 
-@media only screen and (max-width: 865px) {
+@media only screen and (max-width: 870px) {
 
 }
 
 
-@media only screen and (max-width: 840px) {
-
-}
-
-
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 768px) {
 
 
 }
 
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 640px) {
 
 }
 
-@media only screen and (max-width: 660px) {
+@media only screen and (max-width: 400px) {
 
   
 }
